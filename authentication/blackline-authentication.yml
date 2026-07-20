@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.blackline.com/apis
+docs: https://developer.blackline.com/apis
+summary:
+  types: [oauth2]
+  oauth2_flows: [clientCredentials]
+  api_key_in: []
+schemes:
+  - name: OAuth2ClientCredentials
+    type: oauth2
+    flow: clientCredentials
+    token_url: https://api.blackline.com/auth/token
+    grant_type: client_credentials
+    credentials: [client_id, client_secret]
+    token_type: Bearer
+    description: >-
+      BlackLine REST APIs authenticate with OAuth 2.0 client credentials. An
+      application is registered in the BlackLine admin to obtain a Client ID and
+      Client Secret, which are exchanged at the token endpoint for a Bearer
+      access token presented in the Authorization header on each API call.
+    sources: [docs]
+notes: >-
+  Derived from BlackLine developer portal documentation (no public OpenAPI
+  available to derive securitySchemes from). Token host may be region-specific
+  in some deployments (SAP Core / STS middleware exchanges an API key for an
+  OAuth Bearer token).
