@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.blackline.com/apis
+versioning:
+  scheme: uri-path
+  current: v1
+  docs: https://developer.blackline.com/apis
+  note: API routes are versioned in the path (e.g. /v1/periods, /v1/users).
+status_page: https://trust.blackline.com/
+sla:
+  note: Availability commitments are governed by customer contracts; regional service status is published on the status page.
+deprecation: null
+deprecated_operations: []
+notes: >-
+  No public deprecation/sunset policy or RFC 8594 header documentation was
+  found. Status is published per regional instance on the Statuspage.io site.

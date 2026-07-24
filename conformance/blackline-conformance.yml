@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.blackline.com/why-blackline/security/
+standards:
+  - id: oauth2
+    conforms: true
+    evidence: BlackLine REST APIs authenticate with OAuth 2.0 client credentials flow (developer.blackline.com)
+  - id: soc1-type2
+    conforms: true
+    evidence: SSAE 18 / ISAE 3402 SOC 1 Type 2 attestation
+  - id: soc2-type2
+    conforms: true
+    evidence: SSAE 18 / ISAE 3000 (Revised) SOC 2 Type 2 report (Security, Availability, Confidentiality)
+  - id: soc3
+    conforms: true
+    evidence: SOC 3 general-use report published
+  - id: iso-27001
+    conforms: true
+    evidence: ISO/IEC 27001 information security certification
+  - id: iso-27017
+    conforms: true
+    evidence: ISO/IEC 27017 cloud security certification
+  - id: iso-27018
+    conforms: true
+    evidence: ISO/IEC 27018 cloud PII protection certification
+  - id: iso-27701
+    conforms: true
+    evidence: ISO/IEC 27701 privacy information management certification
+  - id: iso-42001
+    conforms: true
+    evidence: ISO/IEC 42001 AI management system certification (Trusted AI in Finance)
+  - id: gdpr
+    conforms: true
+    evidence: GDPR data privacy program referenced on security/legal pages
+compliance_program:
+  url: https://www.blackline.com/why-blackline/security/
+  reports_url: https://www.blackline.com/legal/security/
+  access: SOC reports and ISO certificates available self-serve to customers in the BlackLine Community; prospects via sales
+  certifications: [SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO/IEC 42001]

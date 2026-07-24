@@ -1,22 +1,91 @@
 aid: blackline
 name: BlackLine
-description: 'BlackLine is a company surfaced as a portfolio company of iconiq-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  BlackLine is a cloud-based financial operations (FinOps) and accounting
+  automation platform that helps finance and accounting teams automate the
+  financial close, account reconciliation, journal entry, transaction matching,
+  intercompany, consolidation integrity, and reporting processes. BlackLine
+  exposes a suite of RESTful APIs on its developer portal so customers and
+  partners can integrate the platform with ERP systems, banking platforms,
+  payroll, and reporting tools — covering period management, user and team
+  management, account reconciliation, journals, task management, transaction
+  matching, and reporting. APIs authenticate with OAuth 2.0 client credentials.
+  BlackLine (NASDAQ: BL) is a public company surfaced in the API Evangelist
+  network as a portfolio company of ICONIQ Capital.
 url: https://raw.githubusercontent.com/api-evangelist/blackline/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - iconiq-capital
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-enriched
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://a.storyblok.com/f/213807/1200x630/d2bcfbe58d/blackline-future-ready-financial-operations.jpg
 tags:
 - Company
 - Fintech
-apis: []
+- FinOps
+- Accounting
+- Financial Close
+- Reconciliation
+- Accounting Automation
+- ERP Integration
+- Enterprise Software
+apis:
+- name: BlackLine Period API
+  description: Manage accounting periods (open/close, list periods) in BlackLine.
+  humanURL: https://developer.blackline.com/docs/period/1/overview
+  baseURL: https://api.blackline.com
+  properties:
+  - type: Documentation
+    url: https://developer.blackline.com/docs/period/1/overview
+- name: BlackLine User Management API
+  description: Create, read, and manage BlackLine user accounts.
+  humanURL: https://developer.blackline.com/docs/users/1/overview
+  baseURL: https://api.blackline.com
+  properties:
+  - type: Documentation
+    url: https://developer.blackline.com/docs/users/1/overview
+- name: BlackLine Team Management API
+  description: Manage BlackLine teams and team membership.
+  humanURL: https://developer.blackline.com/docs/teams/1/overview
+  baseURL: https://api.blackline.com
+  properties:
+  - type: Documentation
+    url: https://developer.blackline.com/docs/teams/1/overview
+- name: BlackLine Reporting API
+  description: Retrieve reporting data from the BlackLine platform.
+  humanURL: https://developer.blackline.com/docs/reporting-api/1/overview
+  baseURL: https://api.blackline.com
+  properties:
+  - type: Documentation
+    url: https://developer.blackline.com/docs/reporting-api/1/overview
+- name: BlackLine Account Reconciliation API
+  description: Manage reconciliation items and supporting documents programmatically.
+  humanURL: https://developer.blackline.com/apis
+  baseURL: https://api.blackline.com
+- name: BlackLine Journal Entry API
+  description: Create and manage journal entries programmatically.
+  humanURL: https://developer.blackline.com/apis
+  baseURL: https://api.blackline.com
+- name: BlackLine Transaction Matching API
+  description: Push transactions into BlackLine for automated matching.
+  humanURL: https://developer.blackline.com/apis
+  baseURL: https://api.blackline.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +94,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.blackline.com/
+- type: DeveloperPortal
+  url: https://developer.blackline.com/
+- type: Documentation
+  url: https://developer.blackline.com/apis
+- type: APIReference
+  url: https://developer.blackline.com/apis
+- type: Authentication
+  url: authentication/blackline-authentication.yml
+- type: StatusPage
+  url: https://trust.blackline.com/
+- type: Lifecycle
+  url: lifecycle/blackline-lifecycle.yml
+- type: Conformance
+  url: conformance/blackline-conformance.yml
+- type: Compliance
+  url: https://www.blackline.com/why-blackline/security/
+- type: TrustCenter
+  url: security/blackline-trust-center.yml
+- type: DomainSecurity
+  url: security/blackline-domain-security.yml
+- type: Blog
+  url: https://www.blackline.com/blog/
+- type: PrivacyPolicy
+  url: https://www.blackline.com/legal/privacy-policy/
+- type: TermsOfService
+  url: https://www.blackline.com/legal/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
