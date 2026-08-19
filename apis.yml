@@ -31,7 +31,7 @@ accessModel:
   - authentication
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://a.storyblok.com/f/213807/1200x630/d2bcfbe58d/blackline-future-ready-financial-operations.jpg
