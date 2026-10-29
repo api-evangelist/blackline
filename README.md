@@ -64,6 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BlackLine is a company surfaced as a portfolio company of iconiq-capital and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+BlackLine is a cloud-based financial operations (FinOps) and accounting automation platform that helps finance and accounting teams automate the financial close, account reconciliation, journal entry, transaction matching, intercompany, consolidation integrity, and reporting processes. BlackLine exposes a suite of RESTful APIs on its developer portal so customers and partners can integrate the platform with ERP systems, banking platforms, payroll, and reporting tools — covering period management, user and team management, account reconciliation, journals, task management, transaction matching, and reporting. APIs authenticate with OAuth 2.0 client credentials. BlackLine (NASDAQ: BL) is a public company surfaced in the API Evangelist network as a portfolio company of ICONIQ Capital.
 
-Backed by: iconiq-capital — https://www.blackline.com/
+**Areas:** Company · Fintech · FinOps · Accounting · Financial Close · Reconciliation · Accounting Automation · ERP Integration · Enterprise Software
+
+## BlackLine on APIs.io
+
+Everything profiled for BlackLine is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blackline/](https://apis.io/providers/blackline/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [BlackLine Period API](https://apis.io/apis/blackline/blackline-period-api/) — Manage accounting periods (open/close, list periods) in BlackLine.
+- [BlackLine User Management API](https://apis.io/apis/blackline/blackline-user-management-api/) — Create, read, and manage BlackLine user accounts.
+- [BlackLine Team Management API](https://apis.io/apis/blackline/blackline-team-management-api/) — Manage BlackLine teams and team membership.
+- [BlackLine Reporting API](https://apis.io/apis/blackline/blackline-reporting-api/) — Retrieve reporting data from the BlackLine platform.
+- [BlackLine Account Reconciliation API](https://apis.io/apis/blackline/blackline-account-reconciliation-api/) — Manage reconciliation items and supporting documents programmatically.
+- [BlackLine Journal Entry API](https://apis.io/apis/blackline/blackline-journal-entry-api/) — Create and manage journal entries programmatically.
+- [BlackLine Transaction Matching API](https://apis.io/apis/blackline/blackline-transaction-matching-api/) — Push transactions into BlackLine for automated matching.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blackline Authentication](https://apis.io/security/blackline/blackline-authentication/)
+- [Blackline Domain Security](https://apis.io/security/blackline/blackline-domain-security/)
+- [Blackline Trust Center](https://apis.io/security/blackline/blackline-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.blackline.com/)
+- [Documentation](https://developer.blackline.com/apis)
+- [API reference](https://developer.blackline.com/apis)
+- [Blog](https://www.blackline.com/blog/)
+- [Compliance](https://www.blackline.com/why-blackline/security/)
+- [Terms of service](https://www.blackline.com/legal/)
+- [Privacy policy](https://www.blackline.com/legal/privacy-policy/)
+- [Status](https://trust.blackline.com/)
+
+## API Evangelist rating
+
+**Kin Score 23.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 36.8 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blackline/](https://apis.io/providers/blackline/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BlackLine: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blackline/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
